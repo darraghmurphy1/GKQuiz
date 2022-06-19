@@ -1,9 +1,26 @@
-body {
-
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 10vw;
-    height: 100vh;
+. {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
 }
 
+.quiz-header {
+    text-align: center;
+}
+
+.rule-box {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.game-controls {
+    text-align: center;
+}
+
+.score {
+    text-align: center;
+}
