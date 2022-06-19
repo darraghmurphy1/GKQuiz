@@ -6,14 +6,21 @@
   <meta name="viewport" content="width=device-width">
   <title>Quiz</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <script defer src="script.js" ></script>
 </head>
 
 <body>
+    <section>
+    <div class="quiz-header">
+        <h1 aria label="Welcome to the quiz">Welcome to the general knowledge quiz</h1>
+        <button id="quiz-btn" class="rules">Click here to see the rules of this quiz</button>
+    </div>
+    </section>
   
 
     <div class="container">
         <div id="questions-container">
-        <div id="quiz-question">
+        <div id="quiz-question">What is...?</div>
         <div id="answer-options" class="btn-grid">
             <button class="btn">Answer1</button>
             <button class="btn">Answer2</button>
@@ -21,7 +28,7 @@
             <button class="btn">Answer4</button>
            
 
-        </div>
+        
 
         </div>
 
@@ -29,11 +36,9 @@
         </div>
     </div>
     <div class="game-controls">
-        <button id="start-button" class="start-button btn"></button>
-        <button id="previous-button" class="previous-button btn"></button>
-        <button id="next-button" class="next-button btn"></button>
+        <button id="next-button" class="next-button btn">NEXT</button>
     </div>
-  <script src="script.js"></script>
+ 
 </body>
 
 </html>
