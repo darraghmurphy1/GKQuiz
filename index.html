@@ -6,19 +6,19 @@
   <meta name="viewport" content="width=device-width">
   <title>Quiz</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <script defer src="script.js" ></script>
+  <script src="script.js" ></script>
 </head>
 
 <body>
     <section>
     <div class="quiz-header">
-        <h1 aria label="Welcome to the quiz">Welcome to the general knowledge quiz</h1>
+        <h1 aria label="Welcome to the quiz">Welcome to the sports quiz</h1>
         <button id="quiz-btn" class="rules">Click here to see the rules of this quiz</button>
     </div>
     </section>
 
     <section>
-        <div class="rule-box" hide id="rules-of-quiz">
+        <div class="rule-box"  id="rules-of-quiz">
             <div class="written-rules">
                 <ul class="instructions">
                     <li>Welcome to the quiz! Here your general knowledge will be tested across a range of categories.</li>
@@ -36,23 +36,19 @@
     </section>
   
 
-    <div class="container">
-        <div id="questions-container">
-        <div id="quiz-question">What is...?</div>
-        <div id="answer-options" class="btn-grid">
-            <button class="btn">Answer1</button>
-            <button class="btn">Answer2</button>
-            <button class="btn">Answer3</button>
-            <button class="btn">Answer4</button>
-           
-
-        
-
-        </div>
-
-
-        </div>
+<!-- section for timer -->
+    <div class="question-box" id="questions-container">
+        <h3 aria-label="Countdown timer of five minutes to complete the quiz">Time: </h3>
     </div>
+<!-- this will be where the question is displayed-->
+    <div id="question">
+
+    </div>
+<!-- this will be where answers are displayed -->    
+    <div id="answers">
+
+    </div>
+<!-- the next question button -->    
     <div class="game-controls">
         <button id="next-button" class="next-button btn">NEXT</button>
     </div>
@@ -86,6 +82,8 @@
 
     <footer>Placeholder for socials</footer>
  
+
+<script src="script.js" ></script>
 </body>
 
 </html>
